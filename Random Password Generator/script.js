@@ -25,6 +25,6 @@ function createPassword(){
 }
 
 function copyPassword(){
-    passwordBox.Select();
-    navigator.clipboard.writeText(passwordBox.value);
+
+    navigator.clipboard.writeText(passwordBox.value)
 }
