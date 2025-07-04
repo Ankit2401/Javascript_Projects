@@ -5,4 +5,6 @@ async function getquote(url){
     var data = await response.json();
     console.log(data);
 }
+
+getquote(api_url);
     
