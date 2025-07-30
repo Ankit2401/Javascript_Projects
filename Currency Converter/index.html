@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="converter-container">
+    <h1>💱 Global Currency Exchange</h1>
+    <p>Trusted rates. Bank-style conversion.</p>
+
+    <div class="converter-card">
+      <input type="number" id="amount" placeholder="Enter amount" />
+
+      <div class="select-group">
+        <select id="from">
+          <option value="INR" selected>🇮🇳 INR</option>
+          <option value="USD">🇺🇸 USD</option>
+          <option value="EUR">🇪🇺 EUR</option>
+          <option value="JPY">🇯🇵 JPY</option>
+        </select>
+
+        <span class="arrow">➡️</span>
+
+        <select id="to">
+          <option value="USD" selected>🇺🇸 USD</option>
+          <option value="INR">🇮🇳 INR</option>
+          <option value="EUR">🇪🇺 EUR</option>
+          <option value="JPY">🇯🇵 JPY</option>
+        </select>
+      </div>
+
+      <button onclick="convert()">Convert</button>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
