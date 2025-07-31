@@ -69,6 +69,11 @@ const questions = [
     options: ["Jawaharlal Nehru", "Mahatma Gandhi", "B.R. Ambedkar", "Rajendra Prasad"],
     answer: "B.R. Ambedkar"
   },
+   {
+    question: "What is the capital of Kerala?",
+    options: ["Kochi", "Thiruvananthapuram", "Kozhikode", "Kannur"],
+    answer: "Thiruvananthapuram"
+  },
   {
     question: "Which planet is known as the Red Planet?",
     options: ["Earth", "Venus", "Mars", "Jupiter"],
