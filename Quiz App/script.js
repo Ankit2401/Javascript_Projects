@@ -74,6 +74,11 @@ const questions = [
     options: ["Kochi", "Thiruvananthapuram", "Kozhikode", "Kannur"],
     answer: "Thiruvananthapuram"
   },
+   {
+    question: "Who is known as the Missile Man of India?",
+    options: ["Vikram Sarabhai", "Dr. A.P.J. Abdul Kalam", "C.V. Raman", "Homi Bhabha"],
+    answer: "Dr. A.P.J. Abdul Kalam"
+  },
   {
     question: "Which planet is known as the Red Planet?",
     options: ["Earth", "Venus", "Mars", "Jupiter"],
